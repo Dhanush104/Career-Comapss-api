@@ -1223,8 +1223,8 @@ const Dashboard = ({ onLogout, user }) => {
                         <ul className="space-y-2">
 
                             <NavButton tabName="freeCourses" icon={<BookOpen size={20} />} label="Free Courses" />
-                            <NavButton tabName="mentorship" icon={<Users size={20} />} label="1:1 Mentorship" />
-                            <NavButton tabName="placement" icon={<Briefcase size={20} />} label="Placement" />
+
+
                             <NavButton tabName="podcast" icon={<Mic size={20} />} label="Podcast" />
                             <NavButton tabName="report" icon={<BarChart3 size={20} />} label="Report Card" />
                             <NavButton tabName="profile" icon={<UserIcon size={20} />} label="My Profile" />
