@@ -21,7 +21,7 @@ app.use(express.json()); // Allows us to accept JSON data in the body
 const corsOptions = {
     origin: process.env.CORS_ORIGIN
         ? process.env.CORS_ORIGIN.split(',')
-        : ['http://localhost:5173', 'http://localhost:3000'],
+        : ['https://careercompass006.netlify.app/', 'http://localhost:3000'],
     credentials: true,
     optionsSuccessStatus: 200
 };
